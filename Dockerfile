@@ -1,4 +1,4 @@
-FROM python:3.10.9-buster
+FROM python:3.10.9-slim-buster
 RUN mkdir /app && chmod 777 /app
 WORKDIR /app
 ENV DEBIAN_FRONTEND=noninteractive
